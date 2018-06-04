@@ -2,4 +2,4 @@
 SCRIPT_DIR="$(cd "$( dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p "$SCRIPT_DIR/videos"
 cd "$SCRIPT_DIR/videos"
-cat "$SCRIPT_DIR/download-links.txt" | grep -v '^#' | xargs -n 1 -P 8 wget -c
+cat "$SCRIPT_DIR/download-links.txt" | grep -v '^#' | xargs -n 1 -P 8 wget -c --content-disposition

@@ -1,2 +1,4 @@
 # Alternative mirror: http://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/ToS-4k-1920.mov
 http://ftp.halifax.rwth-aachen.de/blender/demo/movies/ToS/ToS-4k-1920.mov
+
+http://www.valkaama.com/download.php?target=media/movie/Valkaama_1080_p.mkv
