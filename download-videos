@@ -2,4 +2,4 @@
 SCRIPT_DIR="$(cd "$( dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p "$SCRIPT_DIR/videos"
 cd "$SCRIPT_DIR/videos"
-cat "$SCRIPT_DIR/download-links.txt" | grep -v '^#' | xargs -n 1 -P 8 wget -c --content-disposition
+cat "$SCRIPT_DIR/download-links.txt" | grep -v '^#' | xargs -n 1 -P 8 wget -U "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0" -c --content-disposition
